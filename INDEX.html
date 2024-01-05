@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Placement Cell</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Placement Cell Data Entry</h1>
+    <form id="dataForm">
+      <!-- Add input fields for data entry -->
+      <label for="employeeName">Employee Name:</label>
+      <input type="text" id="employeeName" name="employeeName" required>
+
+      <!-- Add more input fields as needed -->
+
+      <button type="button" onclick="submitData()">Submit</button>
+    </form>
+
+    <button onclick="downloadCSV()">Download CSV</button>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
